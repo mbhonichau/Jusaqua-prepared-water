@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Template Name: Jusaqua Prepared Water
+Author: Mbuso Cosby Ubisi
 
-Template Name: Selecao
-Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
