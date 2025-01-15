@@ -627,7 +627,7 @@
                           </div>
                       </div>
                       <div class="member-info">
-                          <h4>Faith Madeli</h4>
+                          <h4>Faith <br>Madeli</h4>
                           <span>Driver and Salesman</span>
                       </div>
                   </div>
@@ -647,8 +647,8 @@
                           </div>
                       </div>
                       <div class="member-info">
-                          <h4>John Doe</h4>
-                          <span>Marketing Specialist</span>
+                          <h4>Siphosethu Kolisi</h4>
+                          <span>Maintenance officer</span>
                       </div>
                   </div>
               </div>
@@ -709,32 +709,38 @@
           </div>
 
           <div class="col-lg-8">
-            <form class="custom-form contact-form" role="form" data-aos="fade-up" data-aos-delay="200">
+            <form class="email-form" role="form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
+                  
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
                 </div>
 
-                <div class="col-md-6 ">
-                  <input type="tel" name="cell" class="form-control" id="cell" placeholder="Enter your cell number" required>
+                <div class="col-md-6">
+                 
+                  <input type="tel" name="cell" class="form-control" id="cell" placeholder="Enter your cell number" required="">
                 </div>
 
                 <div class="col-md-6 form-group">
-                  <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address" required>
+                 
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address" required="">
                 </div>
 
                 <div class="col-md-6 form-group">
-                  <input type="datetime-local" name="delivery-datetime" class="form-control" id="delivery-datetime" required>
+                  
+                  <input type="datetime-local" name="delivery-datetime" class="form-control" id="delivery-datetime" required="">
                 </div>
+                
 
                 <div class="col-md-12 form-group">
-                  <input type="text" name="address" class="form-control" id="address" placeholder="Enter your location or address" required>
+                  
+                  <input type="text" name="address" class="form-control" id="address" placeholder="Enter your location or address" required="">
                 </div>
-
-                <div class="row" >
+                
+                <div class="row mt-4" >
                   <!-- Type of Water -->
-                  <div class="col-md-7 form-group">
+                  <div class="col-md-6 form-group">
                     <select name="water-type" id="water-type" class="form-control" required>
                       <option value="" disabled selected>Select the type of water</option>
                       <option value="Mineral Water">Mineral Water</option>
@@ -745,13 +751,14 @@
                   </div>
                   
                   <div class="col-md-6 form-group">
+                    
                     <input type="number" name="quantity" class="form-control" id="quantity" placeholder="Enter quantity in litres" required>
                   </div>
                 </div>
 
-                <div class="col-md-12 text-center">
+                <div class="col-xl-3 cta-btn-container text-center" id="send-email">
                   
-                  <button type="button" class="cta-btn form-control" onclick="sendMail()" >Send Message</button>
+                  <button class="cta-btn align-middle"  onclick="sendMail()" >Send Message</button>
                 </div>
 
               </div>
