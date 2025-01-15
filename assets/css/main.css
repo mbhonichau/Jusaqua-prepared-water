@@ -1518,6 +1518,8 @@ section,
 
 .contact .email-form input[type=text],
 .contact .email-form input[type=email],
+.contact .email-form input[type=tel],
+.contact .email-form input[type=datetime-local],
 .contact .email-form textarea {
   font-size: 14px;
   padding: 10px 15px;
@@ -1529,20 +1531,26 @@ section,
 }
 
 .contact .email-form input[type=text]:focus,
+.contact .email-form input[type=email]:focus,
 .contact .email-form input[type=tel]:focus,
 .contact .email-form input[type=datetime-local]:focus,
-.contact .email-form input[type=email]:focus,
+.contact .email-form input[type=water-type]:focus,
+.contact .email-form input[type=quantity]:focus,
 .contact .email-form textarea:focus {
   border-color: var(--accent-color);
 }
 
 .contact .email-form input[type=text]::placeholder,
 .contact .email-form input[type=email]::placeholder,
+.contact .email-form input[type=tel]::placeholder,
+.contact .email-form input[type=datetime-local]::placeholder,
+.contact .email-form input[type=water-type]::placeholder,
+.contact .email-form input[type=quantity]::placeholder,
 .contact .mail-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .email-form button[type=submit] {
+#send-email[type=submit] {
   color: var(--contrast-color);
   background: var(--accent-color);
   border: 0;
