@@ -15,3 +15,4 @@ function sendMail() {
             alert("Failed to send email. Please try again.");
         });
 }
+    

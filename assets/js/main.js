@@ -202,3 +202,13 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+/* JavaScript to Toggle Quantity Input Fields */
+document.querySelectorAll('#container-sizes input[type="checkbox"]').forEach(checkbox => {
+  checkbox.addEventListener('change', function () {
+    const quantityInput = this.nextElementSibling.nextElementSibling;
+    quantityInput.disabled = !this.checked;
+    if (!this.checked) {
+      quantityInput.value = '';
+    }
+  });
+});
